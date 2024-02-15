@@ -18,15 +18,15 @@ menu{
 }
 img{
     display: block;
+    width: 100%;
 }
 /*LAYOUT*/
 .container{
+    width: 100%;
     margin: 0 auto;
     padding: 0 30px;
 }
-.container-sm{
-   
-}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -57,6 +57,11 @@ a.button{
 }
 .burger{
     font-size: 22px;
+}
+/*MAIN*/
+.demo-card{
+    background-color: #B5DDFF;
+    border-radius: 18px;
 }
 /*MEDIA_QUERY*/
 @media (max-width:992px) {
