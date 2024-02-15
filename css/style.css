@@ -24,7 +24,7 @@ img{
 .container{
     width: 100%;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 18px;
 }
 
 .row{
@@ -38,7 +38,7 @@ header{
     color: white;
     font-size: 15px;
     height: 76px;
-    padding: 16px 0;
+    padding: 16px 12px;
 }
 .button.bt-black-white{
     background-color: white;
@@ -88,6 +88,9 @@ p{
     padding: 32px;
 }
 /*MAIN*/
+.col{
+    padding: 12px;
+}
 .demo{
    margin: 50px 0;
 }
@@ -112,22 +115,56 @@ p{
 .apple{
     margin-right: 12px;
 }
+.img-phone{
+    max-width: 100%;
+}
 /*MEDIA_QUERY*/
-@media (max-width:992px) {
+@media (min-width:576px) {
+    .img-phone{
+        max-width: 50%;
+    }
+}
+@media (min-width:768px) {
+    .col.img{
+        width: calc(8* 100% / 12);
+    }
+    .col.icon{
+        width: calc(4* 100% /12);
+    }
+    .card{
+        height: 100%;
+        margin-bottom: 0;
+    }
+    p{
+        line-height: 28px;
+        font-size: 16px;
+    }
+   
+}
+
+@media (max-width:991px) {
     .top-list{
         display: none;
     }
+
 }
 
-@media (min-width:993px){
+@media (min-width:992px){
     .burger{
         display: none;
     }
+   
 }
 
 @media (min-width:1200px) {
     .container{
         max-width: 1200px;
+    }
+    .large{
+        width: 50%;
+    }
+    .lg-img{
+        align-self: flex-end;
     }
 }
 
