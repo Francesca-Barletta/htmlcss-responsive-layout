@@ -202,10 +202,8 @@ p{
     margin-bottom: 60px;
     padding: 0 24px;
 }
-.ts-title {
-    font-size: 32px;
-}
-.ts-card-img{
+
+.img-radio{
     width: 202px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
@@ -220,8 +218,9 @@ p{
     border-radius: 50px;
     margin-bottom: 32px;
 }
-.ts-title{
+.h2-purple{
     color: #9792E4;
+    font-size: 32px;
 }
 .ts-card-name{
     display: inline-block;
@@ -229,6 +228,22 @@ p{
 }
 .ts-card-body{
     text-align: center;
+}
+/*ABOUT US*/
+p.ab-us{
+    margin-bottom: 34px;
+}
+.about-us-img{
+    position: relative;
+    display: inline-block;
+}
+.quotes{
+    color: #9792E4;
+    font-size: 70px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+
 }
 /*MEDIA_QUERY*/
 
