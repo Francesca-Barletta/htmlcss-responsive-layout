@@ -30,6 +30,7 @@ img{
 .row{
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 /*STYLE*/
@@ -69,10 +70,12 @@ a.button{
 h2{
     color: #0084FD;
     margin-bottom: 32px;
-    font-size: 21px;
+    font-size: 20px;
 }
 p{
- 
+
+    line-height: 28px;
+    font-size: 16px;
     font-size: 14px;
     font-weight: 700;
 }
@@ -121,7 +124,7 @@ p{
 /*MEDIA_QUERY*/
 @media (min-width:576px) {
     .img-phone{
-        max-width: 50%;
+        max-width:50%;
     }
 }
 @media (min-width:768px) {
@@ -135,11 +138,7 @@ p{
         height: 100%;
         margin-bottom: 0;
     }
-    p{
-        line-height: 28px;
-        font-size: 16px;
-    }
-   
+  
 }
 
 @media (max-width:991px) {
@@ -162,9 +161,11 @@ p{
     }
     .large{
         width: 50%;
-    }
-    .lg-img{
         align-self: flex-end;
+    }
+    .img-phone{
+        min-width: 80%;
+        padding-left: 50px;
     }
 }
 
