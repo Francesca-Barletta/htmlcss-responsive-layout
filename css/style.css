@@ -66,6 +66,7 @@ a.button{
 }
 .top-list{
     gap: 32px;
+    display: none;
 }
 .burger{
     font-size: 22px;
@@ -140,13 +141,6 @@ p{
         margin-bottom: 0;
     }
   
-}
-
-@media (max-width:991px) {
-    .top-list{
-        display: none;
-    }
-
 }
 
 @media (min-width:992px){
