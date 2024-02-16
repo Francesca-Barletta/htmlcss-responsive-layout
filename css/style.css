@@ -281,6 +281,26 @@ a.policy{
 .h2-cta{
     font-size: 25px;
 }
+/*Footer*/
+footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding:25px;
+}
+
+footer p {
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+.a-purple{
+    text-decoration: underline;
+    color: #9792E4;
+}
+.a-purple br {
+    display: none;
+}
 /*MEDIA_QUERY*/
 
 @media (min-width:768px) {
@@ -330,9 +350,14 @@ a.policy{
     font-size: 80px;
    }
    .p-cta{
-    padding: 0 100px;
+    padding: 0 50px;
    }
-   
+   .container-xs{
+    max-width: 655px;
+}
+.a-purple br {
+    display: inline-block;
+}
 }
 
 @media (min-width:992px){
@@ -351,6 +376,7 @@ a.policy{
    .col-lg-4{
     width: calc(4* 100% /12);
    }
+
    
 }
 
@@ -384,8 +410,6 @@ a.policy{
     .card-img{
         width: 60%;
     }
-    .p-cta{
-        padding: 0 300px;
-    }
+   
 } 
 
