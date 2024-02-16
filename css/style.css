@@ -72,9 +72,16 @@ a.button{
     font-size: 22px;
 }
 h2{
+    margin-bottom: 32px;
+    font-size: 20px;
+}
+.blue-h2{
     color: #0084FD;
     margin-bottom: 32px;
     font-size: 20px;
+}
+.white-h2{
+    color: white;
 }
 p{
 
@@ -88,24 +95,33 @@ p{
     font-size: 70px;
     margin-bottom: 26px;
 }
-.card.icon-card{
-    text-align: center;
-    background-color: #B5DDFF;
+.card{
     border-radius: 18px;
     padding: 32px;
 }
-/*MAIN*/
+.card.demo-card {
+    background-color: #B5DDFF;
+}
+.card.icon-card {
+    text-align: center;
+    background-color: #B5DDFF;
+}
+.card.white-card{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 32px 22px;
+    border-radius: 50px;
+}
 .col-12{
     padding: 12px;
     width: calc(12+ 100% / 12);
 }
+/*MAIN*/
+/*SECTION DEMO*/
 
 .demo{
    margin: 50px 0;
-}
-.demo-card{
-    background-color: #B5DDFF;
-    border-radius: 18px;
 }
 .demo-card p{
     margin-bottom: 32px;
@@ -124,9 +140,13 @@ p{
 .apple{
     margin-right: 12px;
 }
-.img-phone{
-    max-width: 100%;
+/*SECTION PLANNING*/
+.planning{
+    background-color: #9792E4;
+    color: white;
+    padding: 50px 0;
 }
+
 /*MEDIA_QUERY*/
 
 @media (min-width:768px) {
@@ -163,7 +183,9 @@ p{
     }
     .large.lg-img{
         align-self: flex-end;
-
+    }
+    .img-phone{
+        margin: 0 auto;
     }
 } 
 
