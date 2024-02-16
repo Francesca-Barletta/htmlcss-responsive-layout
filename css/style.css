@@ -65,6 +65,14 @@ header{
     line-height: 50px;
     margin-top: 30px;
 }
+.button.bt-purple{
+    background-color: #9792E4;
+    color: white;
+    font-size: 16px;
+    padding: 12px 50px;
+    margin: 26px 0;
+
+}
 a.button{
     border-radius: 999px;
 }
@@ -98,6 +106,21 @@ h3{
     color: white;
     font-size: 30px;
 }
+.purple-h3{
+    font-size: 30px;
+    color: #9792E4;
+}
+.number{
+    font-size: 50px;
+    color: #9792E4;
+}
+.benefits .white-h2{
+    text-align: center;
+}
+.white-card.card-bnf{
+    text-align: left;
+}
+
 p{
 
     line-height: 28px;
@@ -157,7 +180,7 @@ p{
     margin-right: 12px;
 }
 /*SECTION PLANNING*/
-.planning{
+.planning, .benefits{
     background-color: #9792E4;
     color: white;
     padding: 50px 0;
@@ -213,6 +236,9 @@ p{
     .col-md-8{
         width: calc(8* 100% / 12);
     }
+    .col-md-6{
+        width: calc(6* 100% / 12);
+       }
     .col-md-4{
         width: calc(4* 100% /12);
     }
@@ -241,6 +267,7 @@ p{
    .ts-card-body{
     text-align: left;
    }
+   
 }
 
 @media (min-width:992px){
@@ -255,6 +282,9 @@ p{
    }
    .ts-title{
     font-size: 42px;
+   }
+   .col-lg-4{
+    width: calc(4* 100% /12);
    }
    
 }
