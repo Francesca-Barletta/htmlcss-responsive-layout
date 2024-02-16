@@ -180,7 +180,7 @@ p{
     margin-right: 12px;
 }
 /*SECTION PLANNING*/
-.planning, .benefits{
+.planning, .benefits, .cta{
     background-color: #9792E4;
     color: white;
     padding: 50px 0;
@@ -256,6 +256,31 @@ p.ab-us{
     font-size: 12px;
     padding: 12px 16px;
 }
+/*CTA*/
+.cta{
+    text-align: center;
+}
+.h1-orange{
+    font-size: 55px;
+    font-weight: 700;
+    color: #FDC15F;
+    margin-bottom: 20px;
+}
+.button.bt-white-purple{
+    color: #9792E4;
+    background-color: white;
+    padding: 20px 70px;
+    margin: 40px 0;
+}
+a.policy{
+    text-decoration:underline;
+}
+.p-cta{
+    font-weight: 400;
+}
+.h2-cta{
+    font-size: 25px;
+}
 /*MEDIA_QUERY*/
 
 @media (min-width:768px) {
@@ -297,6 +322,15 @@ p.ab-us{
    }
    .ts-card-body{
     text-align: left;
+   }
+   .h2-cta{
+    font-size: 40px;
+   }
+   .h1-orange{
+    font-size: 80px;
+   }
+   .p-cta{
+    padding: 0 100px;
    }
    
 }
@@ -350,6 +384,8 @@ p.ab-us{
     .card-img{
         width: 60%;
     }
-    
+    .p-cta{
+        padding: 0 300px;
+    }
 } 
 
